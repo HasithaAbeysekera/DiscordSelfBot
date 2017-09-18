@@ -1,0 +1,994 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'sleep' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData sleep
+8 silly fetchNamedPackageData sleep
+9 silly mapToRegistry name sleep
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'sleep',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'sleep',
+12 silly mapToRegistry   name: 'sleep',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/sleep
+14 verbose request uri https://registry.npmjs.org/sleep
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 16:59:09
+17 verbose request id 4ecf6e74134c5750
+18 http request GET https://registry.npmjs.org/sleep
+19 http 200 https://registry.npmjs.org/sleep
+20 verbose headers { server: 'nginx/1.10.3',
+20 verbose headers   'content-type': 'application/json',
+20 verbose headers   'last-modified': 'Mon, 17 Apr 2017 15:10:54 GMT',
+20 verbose headers   etag: 'W/"58f4dafe-56ea"',
+20 verbose headers   'content-encoding': 'gzip',
+20 verbose headers   'cache-control': 'max-age=300',
+20 verbose headers   'content-length': '3053',
+20 verbose headers   'accept-ranges': 'bytes',
+20 verbose headers   date: 'Mon, 29 May 2017 08:59:11 GMT',
+20 verbose headers   via: '1.1 varnish',
+20 verbose headers   age: '0',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-served-by': 'cache-per7621-PER',
+20 verbose headers   'x-cache': 'MISS',
+20 verbose headers   'x-cache-hits': '0',
+20 verbose headers   'x-timer': 'S1496048351.072306,VS0,VE234',
+20 verbose headers   vary: 'Accept-Encoding' }
+21 silly get cb [ 200,
+21 silly get   { server: 'nginx/1.10.3',
+21 silly get     'content-type': 'application/json',
+21 silly get     'last-modified': 'Mon, 17 Apr 2017 15:10:54 GMT',
+21 silly get     etag: 'W/"58f4dafe-56ea"',
+21 silly get     'content-encoding': 'gzip',
+21 silly get     'cache-control': 'max-age=300',
+21 silly get     'content-length': '3053',
+21 silly get     'accept-ranges': 'bytes',
+21 silly get     date: 'Mon, 29 May 2017 08:59:11 GMT',
+21 silly get     via: '1.1 varnish',
+21 silly get     age: '0',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-served-by': 'cache-per7621-PER',
+21 silly get     'x-cache': 'MISS',
+21 silly get     'x-cache-hits': '0',
+21 silly get     'x-timer': 'S1496048351.072306,VS0,VE234',
+21 silly get     vary: 'Accept-Encoding' } ]
+22 verbose get saving sleep to C:\Users\Hasitha\AppData\Roaming\npm-cache\registry.npmjs.org\sleep\.cache.json
+23 verbose correctMkdir C:\Users\Hasitha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule sleep@5.1.1 checking installable status
+37 silly cache add args [ 'sleep', null ]
+38 verbose cache add spec sleep
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'sleep',
+39 silly cache add   scope: null,
+39 silly cache add   escapedName: 'sleep',
+39 silly cache add   name: 'sleep',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed sleep@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for sleep
+42 info addNameTag [ 'sleep', 'latest' ]
+43 silly mapToRegistry name sleep
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'sleep',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   escapedName: 'sleep',
+46 silly mapToRegistry   name: 'sleep',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://registry.npmjs.org/sleep
+48 verbose addNameTag registry:https://registry.npmjs.org/sleep not in flight; fetching
+49 verbose get https://registry.npmjs.org/sleep not expired, no request
+50 silly addNameTag next cb for sleep with tag latest
+51 silly addNamed sleep@5.1.1
+52 verbose addNamed "5.1.1" is a plain semver version for sleep
+53 silly mapToRegistry name sleep
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'sleep',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   escapedName: 'sleep',
+56 silly mapToRegistry   name: 'sleep',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag' }
+57 silly mapToRegistry uri https://registry.npmjs.org/sleep
+58 verbose addRemoteTarball https://registry.npmjs.org/sleep/-/sleep-5.1.1.tgz not in flight; adding
+59 verbose addRemoteTarball [ 'https://registry.npmjs.org/sleep/-/sleep-5.1.1.tgz',
+59 verbose addRemoteTarball   '878fa1d44d08eeb0f26fb2018ef8629eb1a3ab94' ]
+60 info retry fetch attempt 1 at 16:59:10
+61 info attempt registry request try #1 at 16:59:10
+62 http fetch GET https://registry.npmjs.org/sleep/-/sleep-5.1.1.tgz
+63 http fetch 200 https://registry.npmjs.org/sleep/-/sleep-5.1.1.tgz
+64 silly fetchAndShaCheck shasum 878fa1d44d08eeb0f26fb2018ef8629eb1a3ab94
+65 verbose addTmpTarball C:\Users\Hasitha\AppData\Local\Temp\npm-10652-4258ab90\registry.npmjs.org\sleep\-\sleep-5.1.1.tgz not in flight; adding
+66 verbose addTmpTarball already have metadata; skipping unpack for sleep@5.1.1
+67 verbose correctMkdir C:\Users\Hasitha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+68 silly cache afterAdd sleep@5.1.1
+69 verbose afterAdd C:\Users\Hasitha\AppData\Roaming\npm-cache\sleep\5.1.1\package\package.json not in flight; writing
+70 verbose correctMkdir C:\Users\Hasitha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+71 verbose afterAdd C:\Users\Hasitha\AppData\Roaming\npm-cache\sleep\5.1.1\package\package.json written
+72 silly fetchNamedPackageData nan
+73 silly mapToRegistry name nan
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'nan',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   escapedName: 'nan',
+76 silly mapToRegistry   name: 'nan',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri https://registry.npmjs.org/nan
+78 verbose request uri https://registry.npmjs.org/nan
+79 verbose request no auth needed
+80 info attempt registry request try #1 at 16:59:10
+81 verbose etag W/"591906db-1f9db"
+82 verbose lastModified Mon, 15 May 2017 01:39:39 GMT
+83 http request GET https://registry.npmjs.org/nan
+84 http 304 https://registry.npmjs.org/nan
+85 verbose headers { date: 'Mon, 29 May 2017 08:59:12 GMT',
+85 verbose headers   via: '1.1 varnish',
+85 verbose headers   'cache-control': 'max-age=300',
+85 verbose headers   etag: 'W/"591906db-1f9db"',
+85 verbose headers   age: '167',
+85 verbose headers   connection: 'keep-alive',
+85 verbose headers   'x-served-by': 'cache-per7621-PER',
+85 verbose headers   'x-cache': 'HIT',
+85 verbose headers   'x-cache-hits': '1',
+85 verbose headers   'x-timer': 'S1496048352.037831,VS0,VE0',
+85 verbose headers   vary: 'Accept-Encoding' }
+86 silly get cb [ 304,
+86 silly get   { date: 'Mon, 29 May 2017 08:59:12 GMT',
+86 silly get     via: '1.1 varnish',
+86 silly get     'cache-control': 'max-age=300',
+86 silly get     etag: 'W/"591906db-1f9db"',
+86 silly get     age: '167',
+86 silly get     connection: 'keep-alive',
+86 silly get     'x-served-by': 'cache-per7621-PER',
+86 silly get     'x-cache': 'HIT',
+86 silly get     'x-cache-hits': '1',
+86 silly get     'x-timer': 'S1496048352.037831,VS0,VE0',
+86 silly get     vary: 'Accept-Encoding' } ]
+87 verbose etag https://registry.npmjs.org/nan from cache
+88 verbose get saving nan to C:\Users\Hasitha\AppData\Roaming\npm-cache\registry.npmjs.org\nan\.cache.json
+89 verbose correctMkdir C:\Users\Hasitha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+90 silly resolveWithNewModule nan@2.6.2 checking installable status
+91 silly cache add args [ 'nan@>=2.5.1', null ]
+92 verbose cache add spec nan@>=2.5.1
+93 silly cache add parsed spec Result {
+93 silly cache add   raw: 'nan@>=2.5.1',
+93 silly cache add   scope: null,
+93 silly cache add   escapedName: 'nan',
+93 silly cache add   name: 'nan',
+93 silly cache add   rawSpec: '>=2.5.1',
+93 silly cache add   spec: '>=2.5.1',
+93 silly cache add   type: 'range' }
+94 silly addNamed nan@>=2.5.1
+95 verbose addNamed ">=2.5.1" is a valid semver range for nan
+96 silly addNameRange { name: 'nan', range: '>=2.5.1', hasData: false }
+97 silly mapToRegistry name nan
+98 silly mapToRegistry using default registry
+99 silly mapToRegistry registry https://registry.npmjs.org/
+100 silly mapToRegistry data Result {
+100 silly mapToRegistry   raw: 'nan',
+100 silly mapToRegistry   scope: null,
+100 silly mapToRegistry   escapedName: 'nan',
+100 silly mapToRegistry   name: 'nan',
+100 silly mapToRegistry   rawSpec: '',
+100 silly mapToRegistry   spec: 'latest',
+100 silly mapToRegistry   type: 'tag' }
+101 silly mapToRegistry uri https://registry.npmjs.org/nan
+102 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+103 verbose get https://registry.npmjs.org/nan not expired, no request
+104 silly addNameRange number 2 { name: 'nan', range: '>=2.5.1', hasData: true }
+105 silly addNameRange versions [ 'nan',
+105 silly addNameRange   [ '0.3.0-wip',
+105 silly addNameRange     '0.3.0-wip2',
+105 silly addNameRange     '0.3.0',
+105 silly addNameRange     '0.3.1',
+105 silly addNameRange     '0.3.2',
+105 silly addNameRange     '0.4.0',
+105 silly addNameRange     '0.4.1',
+105 silly addNameRange     '0.4.2',
+105 silly addNameRange     '0.4.3',
+105 silly addNameRange     '0.4.4',
+105 silly addNameRange     '0.5.0',
+105 silly addNameRange     '0.5.1',
+105 silly addNameRange     '0.5.2',
+105 silly addNameRange     '0.6.0',
+105 silly addNameRange     '0.7.0',
+105 silly addNameRange     '0.7.1',
+105 silly addNameRange     '0.8.0',
+105 silly addNameRange     '1.0.0',
+105 silly addNameRange     '1.1.0',
+105 silly addNameRange     '1.1.1',
+105 silly addNameRange     '1.1.2',
+105 silly addNameRange     '1.2.0',
+105 silly addNameRange     '1.3.0',
+105 silly addNameRange     '1.4.0',
+105 silly addNameRange     '1.4.1',
+105 silly addNameRange     '1.5.0',
+105 silly addNameRange     '1.4.2',
+105 silly addNameRange     '1.4.3',
+105 silly addNameRange     '1.5.1',
+105 silly addNameRange     '1.5.2',
+105 silly addNameRange     '1.6.0',
+105 silly addNameRange     '1.5.3',
+105 silly addNameRange     '1.6.1',
+105 silly addNameRange     '1.6.2',
+105 silly addNameRange     '1.7.0',
+105 silly addNameRange     '1.8.0',
+105 silly addNameRange     '1.8.1',
+105 silly addNameRange     '1.8.2',
+105 silly addNameRange     '1.8.3',
+105 silly addNameRange     '1.8.4',
+105 silly addNameRange     '1.9.0',
+105 silly addNameRange     '2.0.0',
+105 silly addNameRange     '2.0.1',
+105 silly addNameRange     '2.0.2',
+105 silly addNameRange     '2.0.3',
+105 silly addNameRange     '2.0.4',
+105 silly addNameRange     '2.0.5',
+105 silly addNameRange     '2.0.6',
+105 silly addNameRange     '2.0.7',
+105 silly addNameRange     '2.0.8',
+105 silly addNameRange     '2.0.9',
+105 silly addNameRange     '2.1.0',
+105 silly addNameRange     '2.2.0',
+105 silly addNameRange     '2.2.1',
+105 silly addNameRange     '2.3.0',
+105 silly addNameRange     '2.3.1',
+105 silly addNameRange     '2.3.2',
+105 silly addNameRange     '2.3.3',
+105 silly addNameRange     '2.3.4',
+105 silly addNameRange     '2.3.5',
+105 silly addNameRange     '2.4.0',
+105 silly addNameRange     '2.5.0',
+105 silly addNameRange     '2.5.1',
+105 silly addNameRange     '2.6.0',
+105 silly addNameRange     '2.6.1',
+105 silly addNameRange     '2.6.2' ] ]
+106 silly addNamed nan@2.6.2
+107 verbose addNamed "2.6.2" is a plain semver version for nan
+108 silly cache afterAdd nan@2.6.2
+109 verbose afterAdd C:\Users\Hasitha\AppData\Roaming\npm-cache\nan\2.6.2\package\package.json not in flight; writing
+110 verbose correctMkdir C:\Users\Hasitha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+111 verbose afterAdd C:\Users\Hasitha\AppData\Roaming\npm-cache\nan\2.6.2\package\package.json written
+112 silly loadAllDepsIntoIdealTree Finishing
+113 silly loadIdealTree Finishing
+114 silly currentTree mybot@0.0.1
+114 silly currentTree +-- @types/node@6.0.63
+114 silly currentTree +-- acorn-jsx@3.0.1
+114 silly currentTree | `-- acorn@3.3.0
+114 silly currentTree +-- acorn@4.0.4
+114 silly currentTree +-- ajv-keywords@1.5.1
+114 silly currentTree +-- ajv@4.11.5
+114 silly currentTree +-- ansi-escapes@1.4.0
+114 silly currentTree +-- ansi-regex@2.1.1
+114 silly currentTree +-- ansi-styles@2.2.1
+114 silly currentTree +-- argparse@1.0.9
+114 silly currentTree +-- array-union@1.0.2
+114 silly currentTree +-- array-uniq@1.0.3
+114 silly currentTree +-- array.prototype.find@2.0.3
+114 silly currentTree +-- arrify@1.0.1
+114 silly currentTree +-- asn1@0.2.3
+114 silly currentTree +-- assert-plus@0.2.0
+114 silly currentTree +-- asynckit@0.4.0
+114 silly currentTree +-- aws-sign2@0.6.0
+114 silly currentTree +-- aws4@1.6.0
+114 silly currentTree +-- babel-code-frame@6.22.0
+114 silly currentTree +-- balanced-match@0.4.2
+114 silly currentTree +-- bcrypt-pbkdf@1.0.1
+114 silly currentTree +-- bluebird@3.5.0
+114 silly currentTree +-- boom@2.10.1
+114 silly currentTree +-- brace-expansion@1.1.6
+114 silly currentTree +-- buffer-shims@1.0.0
+114 silly currentTree +-- caller-path@0.1.0
+114 silly currentTree +-- callsites@0.2.0
+114 silly currentTree +-- caseless@0.12.0
+114 silly currentTree +-- chalk@1.1.3
+114 silly currentTree +-- circular-json@0.3.1
+114 silly currentTree +-- cli-cursor@1.0.2
+114 silly currentTree +-- cli-width@2.1.0
+114 silly currentTree +-- co@4.6.0
+114 silly currentTree +-- code-point-at@1.1.0
+114 silly currentTree +-- combined-stream@1.0.5
+114 silly currentTree +-- component-emitter@1.2.1
+114 silly currentTree +-- concat-map@0.0.1
+114 silly currentTree +-- concat-stream@1.6.0
+114 silly currentTree +-- cookiejar@2.1.0
+114 silly currentTree +-- core-util-is@1.0.2
+114 silly currentTree +-- cryptiles@2.0.5
+114 silly currentTree +-- d@1.0.0
+114 silly currentTree +-- dashdash@1.14.1
+114 silly currentTree | `-- assert-plus@1.0.0
+114 silly currentTree +-- debug@2.6.1
+114 silly currentTree | `-- ms@0.7.2
+114 silly currentTree +-- deep-is@0.1.3
+114 silly currentTree +-- define-properties@1.1.2
+114 silly currentTree +-- del@2.2.2
+114 silly currentTree +-- delayed-stream@1.0.0
+114 silly currentTree +-- discord.js@11.0.0
+114 silly currentTree +-- doctrine@2.0.0
+114 silly currentTree +-- ecc-jsbn@0.1.1
+114 silly currentTree +-- es-abstract@1.7.0
+114 silly currentTree +-- es-to-primitive@1.1.1
+114 silly currentTree +-- es5-ext@0.10.15
+114 silly currentTree +-- es6-iterator@2.0.1
+114 silly currentTree +-- es6-map@0.1.5
+114 silly currentTree +-- es6-set@0.1.5
+114 silly currentTree +-- es6-symbol@3.1.1
+114 silly currentTree +-- es6-weak-map@2.0.2
+114 silly currentTree +-- escape-string-regexp@1.0.5
+114 silly currentTree +-- escope@3.6.0
+114 silly currentTree +-- eslint-plugin-react@6.10.3
+114 silly currentTree | `-- doctrine@1.5.0
+114 silly currentTree +-- eslint@3.18.0
+114 silly currentTree +-- espree@3.4.0
+114 silly currentTree +-- esprima@3.1.3
+114 silly currentTree +-- esquery@1.0.0
+114 silly currentTree +-- esrecurse@4.1.0
+114 silly currentTree | `-- estraverse@4.1.1
+114 silly currentTree +-- estraverse@4.2.0
+114 silly currentTree +-- esutils@2.0.2
+114 silly currentTree +-- event-emitter@0.3.5
+114 silly currentTree +-- exit-hook@1.1.1
+114 silly currentTree +-- extend@3.0.0
+114 silly currentTree +-- extsprintf@1.0.2
+114 silly currentTree +-- fast-levenshtein@2.0.6
+114 silly currentTree +-- figures@1.7.0
+114 silly currentTree +-- file-entry-cache@2.0.0
+114 silly currentTree +-- flat-cache@1.2.2
+114 silly currentTree +-- foreach@2.0.5
+114 silly currentTree +-- forever-agent@0.6.1
+114 silly currentTree +-- form-data@2.1.2
+114 silly currentTree +-- formidable@1.1.1
+114 silly currentTree +-- fs.realpath@1.0.0
+114 silly currentTree +-- function-bind@1.1.0
+114 silly currentTree +-- generate-function@2.0.0
+114 silly currentTree +-- generate-object-property@1.2.0
+114 silly currentTree +-- getpass@0.1.6
+114 silly currentTree | `-- assert-plus@1.0.0
+114 silly currentTree +-- glob@7.1.1
+114 silly currentTree +-- globals@9.17.0
+114 silly currentTree +-- globby@5.0.0
+114 silly currentTree +-- graceful-fs@4.1.11
+114 silly currentTree +-- har-schema@1.0.5
+114 silly currentTree +-- har-validator@4.2.1
+114 silly currentTree +-- has-ansi@2.0.0
+114 silly currentTree +-- has@1.0.1
+114 silly currentTree +-- hawk@3.1.3
+114 silly currentTree +-- hoek@2.16.3
+114 silly currentTree +-- html-entities@1.2.0
+114 silly currentTree +-- http-signature@1.1.1
+114 silly currentTree +-- ignore@3.2.6
+114 silly currentTree +-- imurmurhash@0.1.4
+114 silly currentTree +-- inflight@1.0.6
+114 silly currentTree +-- inherits@2.0.3
+114 silly currentTree +-- inquirer@0.12.0
+114 silly currentTree +-- interpret@1.0.1
+114 silly currentTree +-- is-callable@1.1.3
+114 silly currentTree +-- is-date-object@1.0.1
+114 silly currentTree +-- is-fullwidth-code-point@1.0.0
+114 silly currentTree +-- is-my-json-valid@2.16.0
+114 silly currentTree +-- is-path-cwd@1.0.0
+114 silly currentTree +-- is-path-in-cwd@1.0.0
+114 silly currentTree +-- is-path-inside@1.0.0
+114 silly currentTree +-- is-property@1.0.2
+114 silly currentTree +-- is-regex@1.0.4
+114 silly currentTree +-- is-resolvable@1.0.0
+114 silly currentTree +-- is-symbol@1.0.1
+114 silly currentTree +-- is-typedarray@1.0.0
+114 silly currentTree +-- isarray@1.0.0
+114 silly currentTree +-- isstream@0.1.2
+114 silly currentTree +-- jodid25519@1.0.2
+114 silly currentTree +-- js-tokens@3.0.1
+114 silly currentTree +-- js-yaml@3.8.2
+114 silly currentTree +-- jsbn@0.1.1
+114 silly currentTree +-- json-schema@0.2.3
+114 silly currentTree +-- json-stable-stringify@1.0.1
+114 silly currentTree +-- json-stringify-safe@5.0.1
+114 silly currentTree +-- jsonify@0.0.0
+114 silly currentTree +-- jsonpointer@4.0.1
+114 silly currentTree +-- jsprim@1.4.0
+114 silly currentTree | `-- assert-plus@1.0.0
+114 silly currentTree +-- jsx-ast-utils@1.4.0
+114 silly currentTree +-- levn@0.3.0
+114 silly currentTree +-- lodash@4.17.4
+114 silly currentTree +-- methods@1.1.2
+114 silly currentTree +-- mime-db@1.26.0
+114 silly currentTree +-- mime-types@2.1.14
+114 silly currentTree +-- mime@1.3.4
+114 silly currentTree +-- minimatch@3.0.3
+114 silly currentTree +-- minimist@0.0.8
+114 silly currentTree +-- mkdirp@0.5.1
+114 silly currentTree +-- moment@2.18.1
+114 silly currentTree +-- ms@1.0.0
+114 silly currentTree +-- mute-stream@0.0.5
+114 silly currentTree +-- natural-compare@1.4.0
+114 silly currentTree +-- number-is-nan@1.0.1
+114 silly currentTree +-- oauth-sign@0.8.2
+114 silly currentTree +-- object-assign@4.1.1
+114 silly currentTree +-- object-keys@1.0.11
+114 silly currentTree +-- object.assign@4.0.4
+114 silly currentTree +-- once@1.4.0
+114 silly currentTree +-- onetime@1.1.0
+114 silly currentTree +-- optionator@0.8.2
+114 silly currentTree +-- options@0.0.6
+114 silly currentTree +-- os-homedir@1.0.2
+114 silly currentTree +-- pako@1.0.4
+114 silly currentTree +-- path-is-absolute@1.0.1
+114 silly currentTree +-- path-is-inside@1.0.2
+114 silly currentTree +-- path-parse@1.0.5
+114 silly currentTree +-- performance-now@0.2.0
+114 silly currentTree +-- pify@2.3.0
+114 silly currentTree +-- pinkie-promise@2.0.1
+114 silly currentTree +-- pinkie@2.0.4
+114 silly currentTree +-- pluralize@1.2.1
+114 silly currentTree +-- prelude-ls@1.1.2
+114 silly currentTree +-- process-nextick-args@1.0.7
+114 silly currentTree +-- progress@1.1.8
+114 silly currentTree +-- punycode@1.4.1
+114 silly currentTree +-- qs@6.3.1
+114 silly currentTree +-- readable-stream@2.2.3
+114 silly currentTree +-- readline2@1.0.1
+114 silly currentTree +-- rechoir@0.6.2
+114 silly currentTree +-- request-promise-core@1.1.1
+114 silly currentTree +-- request-promise@4.2.0
+114 silly currentTree +-- request@2.81.0
+114 silly currentTree | `-- qs@6.4.0
+114 silly currentTree +-- require-reload@0.2.2
+114 silly currentTree +-- require-uncached@1.0.3
+114 silly currentTree +-- resolve-from@1.0.1
+114 silly currentTree +-- resolve@1.3.2
+114 silly currentTree +-- restore-cursor@1.0.1
+114 silly currentTree +-- rimraf@2.6.1
+114 silly currentTree +-- run-async@0.1.0
+114 silly currentTree +-- rx-lite@3.1.2
+114 silly currentTree +-- safe-buffer@5.0.1
+114 silly currentTree +-- sax@1.2.2
+114 silly currentTree +-- shelljs@0.7.7
+114 silly currentTree +-- slice-ansi@0.0.4
+114 silly currentTree +-- sntp@1.0.9
+114 silly currentTree +-- sprintf-js@1.0.3
+114 silly currentTree +-- sshpk@1.11.0
+114 silly currentTree | `-- assert-plus@1.0.0
+114 silly currentTree +-- stealthy-require@1.0.0
+114 silly currentTree +-- string_decoder@0.10.31
+114 silly currentTree +-- string-width@1.0.2
+114 silly currentTree +-- stringstream@0.0.5
+114 silly currentTree +-- strip-ansi@3.0.1
+114 silly currentTree +-- strip-bom@3.0.0
+114 silly currentTree +-- strip-json-comments@2.0.1
+114 silly currentTree +-- superagent@3.5.0
+114 silly currentTree +-- supports-color@2.0.0
+114 silly currentTree +-- table@3.8.3
+114 silly currentTree | +-- is-fullwidth-code-point@2.0.0
+114 silly currentTree | `-- string-width@2.0.0
+114 silly currentTree +-- text-table@0.2.0
+114 silly currentTree +-- through@2.3.8
+114 silly currentTree +-- tough-cookie@2.3.2
+114 silly currentTree +-- tryit@1.0.3
+114 silly currentTree +-- tunnel-agent@0.6.0
+114 silly currentTree +-- tweetnacl@0.14.5
+114 silly currentTree +-- type-check@0.3.2
+114 silly currentTree +-- typedarray@0.0.6
+114 silly currentTree +-- ultron@1.0.2
+114 silly currentTree +-- user-home@2.0.0
+114 silly currentTree +-- util-deprecate@1.0.2
+114 silly currentTree +-- uuid@3.0.1
+114 silly currentTree +-- verror@1.3.6
+114 silly currentTree +-- wordwrap@1.0.0
+114 silly currentTree +-- wrappy@1.0.2
+114 silly currentTree +-- write@0.2.1
+114 silly currentTree +-- ws@1.1.2
+114 silly currentTree +-- xml2js@0.4.17
+114 silly currentTree +-- xmlbuilder@4.2.1
+114 silly currentTree `-- xtend@4.0.1
+115 silly idealTree mybot@0.0.1
+115 silly idealTree +-- @types/node@6.0.63
+115 silly idealTree +-- acorn-jsx@3.0.1
+115 silly idealTree | `-- acorn@3.3.0
+115 silly idealTree +-- acorn@4.0.4
+115 silly idealTree +-- ajv-keywords@1.5.1
+115 silly idealTree +-- ajv@4.11.5
+115 silly idealTree +-- ansi-escapes@1.4.0
+115 silly idealTree +-- ansi-regex@2.1.1
+115 silly idealTree +-- ansi-styles@2.2.1
+115 silly idealTree +-- argparse@1.0.9
+115 silly idealTree +-- array-union@1.0.2
+115 silly idealTree +-- array-uniq@1.0.3
+115 silly idealTree +-- array.prototype.find@2.0.3
+115 silly idealTree +-- arrify@1.0.1
+115 silly idealTree +-- asn1@0.2.3
+115 silly idealTree +-- assert-plus@0.2.0
+115 silly idealTree +-- asynckit@0.4.0
+115 silly idealTree +-- aws-sign2@0.6.0
+115 silly idealTree +-- aws4@1.6.0
+115 silly idealTree +-- babel-code-frame@6.22.0
+115 silly idealTree +-- balanced-match@0.4.2
+115 silly idealTree +-- bcrypt-pbkdf@1.0.1
+115 silly idealTree +-- bluebird@3.5.0
+115 silly idealTree +-- boom@2.10.1
+115 silly idealTree +-- brace-expansion@1.1.6
+115 silly idealTree +-- buffer-shims@1.0.0
+115 silly idealTree +-- caller-path@0.1.0
+115 silly idealTree +-- callsites@0.2.0
+115 silly idealTree +-- caseless@0.12.0
+115 silly idealTree +-- chalk@1.1.3
+115 silly idealTree +-- circular-json@0.3.1
+115 silly idealTree +-- cli-cursor@1.0.2
+115 silly idealTree +-- cli-width@2.1.0
+115 silly idealTree +-- co@4.6.0
+115 silly idealTree +-- code-point-at@1.1.0
+115 silly idealTree +-- combined-stream@1.0.5
+115 silly idealTree +-- component-emitter@1.2.1
+115 silly idealTree +-- concat-map@0.0.1
+115 silly idealTree +-- concat-stream@1.6.0
+115 silly idealTree +-- cookiejar@2.1.0
+115 silly idealTree +-- core-util-is@1.0.2
+115 silly idealTree +-- cryptiles@2.0.5
+115 silly idealTree +-- d@1.0.0
+115 silly idealTree +-- dashdash@1.14.1
+115 silly idealTree | `-- assert-plus@1.0.0
+115 silly idealTree +-- debug@2.6.1
+115 silly idealTree | `-- ms@0.7.2
+115 silly idealTree +-- deep-is@0.1.3
+115 silly idealTree +-- define-properties@1.1.2
+115 silly idealTree +-- del@2.2.2
+115 silly idealTree +-- delayed-stream@1.0.0
+115 silly idealTree +-- discord.js@11.0.0
+115 silly idealTree +-- doctrine@2.0.0
+115 silly idealTree +-- ecc-jsbn@0.1.1
+115 silly idealTree +-- es-abstract@1.7.0
+115 silly idealTree +-- es-to-primitive@1.1.1
+115 silly idealTree +-- es5-ext@0.10.15
+115 silly idealTree +-- es6-iterator@2.0.1
+115 silly idealTree +-- es6-map@0.1.5
+115 silly idealTree +-- es6-set@0.1.5
+115 silly idealTree +-- es6-symbol@3.1.1
+115 silly idealTree +-- es6-weak-map@2.0.2
+115 silly idealTree +-- escape-string-regexp@1.0.5
+115 silly idealTree +-- escope@3.6.0
+115 silly idealTree +-- eslint-plugin-react@6.10.3
+115 silly idealTree | `-- doctrine@1.5.0
+115 silly idealTree +-- eslint@3.18.0
+115 silly idealTree +-- espree@3.4.0
+115 silly idealTree +-- esprima@3.1.3
+115 silly idealTree +-- esquery@1.0.0
+115 silly idealTree +-- esrecurse@4.1.0
+115 silly idealTree | `-- estraverse@4.1.1
+115 silly idealTree +-- estraverse@4.2.0
+115 silly idealTree +-- esutils@2.0.2
+115 silly idealTree +-- event-emitter@0.3.5
+115 silly idealTree +-- exit-hook@1.1.1
+115 silly idealTree +-- extend@3.0.0
+115 silly idealTree +-- extsprintf@1.0.2
+115 silly idealTree +-- fast-levenshtein@2.0.6
+115 silly idealTree +-- figures@1.7.0
+115 silly idealTree +-- file-entry-cache@2.0.0
+115 silly idealTree +-- flat-cache@1.2.2
+115 silly idealTree +-- foreach@2.0.5
+115 silly idealTree +-- forever-agent@0.6.1
+115 silly idealTree +-- form-data@2.1.2
+115 silly idealTree +-- formidable@1.1.1
+115 silly idealTree +-- fs.realpath@1.0.0
+115 silly idealTree +-- function-bind@1.1.0
+115 silly idealTree +-- generate-function@2.0.0
+115 silly idealTree +-- generate-object-property@1.2.0
+115 silly idealTree +-- getpass@0.1.6
+115 silly idealTree | `-- assert-plus@1.0.0
+115 silly idealTree +-- glob@7.1.1
+115 silly idealTree +-- globals@9.17.0
+115 silly idealTree +-- globby@5.0.0
+115 silly idealTree +-- graceful-fs@4.1.11
+115 silly idealTree +-- har-schema@1.0.5
+115 silly idealTree +-- har-validator@4.2.1
+115 silly idealTree +-- has-ansi@2.0.0
+115 silly idealTree +-- has@1.0.1
+115 silly idealTree +-- hawk@3.1.3
+115 silly idealTree +-- hoek@2.16.3
+115 silly idealTree +-- html-entities@1.2.0
+115 silly idealTree +-- http-signature@1.1.1
+115 silly idealTree +-- ignore@3.2.6
+115 silly idealTree +-- imurmurhash@0.1.4
+115 silly idealTree +-- inflight@1.0.6
+115 silly idealTree +-- inherits@2.0.3
+115 silly idealTree +-- inquirer@0.12.0
+115 silly idealTree +-- interpret@1.0.1
+115 silly idealTree +-- is-callable@1.1.3
+115 silly idealTree +-- is-date-object@1.0.1
+115 silly idealTree +-- is-fullwidth-code-point@1.0.0
+115 silly idealTree +-- is-my-json-valid@2.16.0
+115 silly idealTree +-- is-path-cwd@1.0.0
+115 silly idealTree +-- is-path-in-cwd@1.0.0
+115 silly idealTree +-- is-path-inside@1.0.0
+115 silly idealTree +-- is-property@1.0.2
+115 silly idealTree +-- is-regex@1.0.4
+115 silly idealTree +-- is-resolvable@1.0.0
+115 silly idealTree +-- is-symbol@1.0.1
+115 silly idealTree +-- is-typedarray@1.0.0
+115 silly idealTree +-- isarray@1.0.0
+115 silly idealTree +-- isstream@0.1.2
+115 silly idealTree +-- jodid25519@1.0.2
+115 silly idealTree +-- js-tokens@3.0.1
+115 silly idealTree +-- js-yaml@3.8.2
+115 silly idealTree +-- jsbn@0.1.1
+115 silly idealTree +-- json-schema@0.2.3
+115 silly idealTree +-- json-stable-stringify@1.0.1
+115 silly idealTree +-- json-stringify-safe@5.0.1
+115 silly idealTree +-- jsonify@0.0.0
+115 silly idealTree +-- jsonpointer@4.0.1
+115 silly idealTree +-- jsprim@1.4.0
+115 silly idealTree | `-- assert-plus@1.0.0
+115 silly idealTree +-- jsx-ast-utils@1.4.0
+115 silly idealTree +-- levn@0.3.0
+115 silly idealTree +-- lodash@4.17.4
+115 silly idealTree +-- methods@1.1.2
+115 silly idealTree +-- mime-db@1.26.0
+115 silly idealTree +-- mime-types@2.1.14
+115 silly idealTree +-- mime@1.3.4
+115 silly idealTree +-- minimatch@3.0.3
+115 silly idealTree +-- minimist@0.0.8
+115 silly idealTree +-- mkdirp@0.5.1
+115 silly idealTree +-- moment@2.18.1
+115 silly idealTree +-- ms@1.0.0
+115 silly idealTree +-- mute-stream@0.0.5
+115 silly idealTree +-- nan@2.6.2
+115 silly idealTree +-- natural-compare@1.4.0
+115 silly idealTree +-- number-is-nan@1.0.1
+115 silly idealTree +-- oauth-sign@0.8.2
+115 silly idealTree +-- object-assign@4.1.1
+115 silly idealTree +-- object-keys@1.0.11
+115 silly idealTree +-- object.assign@4.0.4
+115 silly idealTree +-- once@1.4.0
+115 silly idealTree +-- onetime@1.1.0
+115 silly idealTree +-- optionator@0.8.2
+115 silly idealTree +-- options@0.0.6
+115 silly idealTree +-- os-homedir@1.0.2
+115 silly idealTree +-- pako@1.0.4
+115 silly idealTree +-- path-is-absolute@1.0.1
+115 silly idealTree +-- path-is-inside@1.0.2
+115 silly idealTree +-- path-parse@1.0.5
+115 silly idealTree +-- performance-now@0.2.0
+115 silly idealTree +-- pify@2.3.0
+115 silly idealTree +-- pinkie-promise@2.0.1
+115 silly idealTree +-- pinkie@2.0.4
+115 silly idealTree +-- pluralize@1.2.1
+115 silly idealTree +-- prelude-ls@1.1.2
+115 silly idealTree +-- process-nextick-args@1.0.7
+115 silly idealTree +-- progress@1.1.8
+115 silly idealTree +-- punycode@1.4.1
+115 silly idealTree +-- qs@6.3.1
+115 silly idealTree +-- readable-stream@2.2.3
+115 silly idealTree +-- readline2@1.0.1
+115 silly idealTree +-- rechoir@0.6.2
+115 silly idealTree +-- request-promise-core@1.1.1
+115 silly idealTree +-- request-promise@4.2.0
+115 silly idealTree +-- request@2.81.0
+115 silly idealTree | `-- qs@6.4.0
+115 silly idealTree +-- require-reload@0.2.2
+115 silly idealTree +-- require-uncached@1.0.3
+115 silly idealTree +-- resolve-from@1.0.1
+115 silly idealTree +-- resolve@1.3.2
+115 silly idealTree +-- restore-cursor@1.0.1
+115 silly idealTree +-- rimraf@2.6.1
+115 silly idealTree +-- run-async@0.1.0
+115 silly idealTree +-- rx-lite@3.1.2
+115 silly idealTree +-- safe-buffer@5.0.1
+115 silly idealTree +-- sax@1.2.2
+115 silly idealTree +-- shelljs@0.7.7
+115 silly idealTree +-- sleep@5.1.1
+115 silly idealTree +-- slice-ansi@0.0.4
+115 silly idealTree +-- sntp@1.0.9
+115 silly idealTree +-- sprintf-js@1.0.3
+115 silly idealTree +-- sshpk@1.11.0
+115 silly idealTree | `-- assert-plus@1.0.0
+115 silly idealTree +-- stealthy-require@1.0.0
+115 silly idealTree +-- string_decoder@0.10.31
+115 silly idealTree +-- string-width@1.0.2
+115 silly idealTree +-- stringstream@0.0.5
+115 silly idealTree +-- strip-ansi@3.0.1
+115 silly idealTree +-- strip-bom@3.0.0
+115 silly idealTree +-- strip-json-comments@2.0.1
+115 silly idealTree +-- superagent@3.5.0
+115 silly idealTree +-- supports-color@2.0.0
+115 silly idealTree +-- table@3.8.3
+115 silly idealTree | +-- is-fullwidth-code-point@2.0.0
+115 silly idealTree | `-- string-width@2.0.0
+115 silly idealTree +-- text-table@0.2.0
+115 silly idealTree +-- through@2.3.8
+115 silly idealTree +-- tough-cookie@2.3.2
+115 silly idealTree +-- tryit@1.0.3
+115 silly idealTree +-- tunnel-agent@0.6.0
+115 silly idealTree +-- tweetnacl@0.14.5
+115 silly idealTree +-- type-check@0.3.2
+115 silly idealTree +-- typedarray@0.0.6
+115 silly idealTree +-- ultron@1.0.2
+115 silly idealTree +-- user-home@2.0.0
+115 silly idealTree +-- util-deprecate@1.0.2
+115 silly idealTree +-- uuid@3.0.1
+115 silly idealTree +-- verror@1.3.6
+115 silly idealTree +-- wordwrap@1.0.0
+115 silly idealTree +-- wrappy@1.0.2
+115 silly idealTree +-- write@0.2.1
+115 silly idealTree +-- ws@1.1.2
+115 silly idealTree +-- xml2js@0.4.17
+115 silly idealTree +-- xmlbuilder@4.2.1
+115 silly idealTree `-- xtend@4.0.1
+116 silly generateActionsToTake Starting
+117 silly install generateActionsToTake
+118 silly generateActionsToTake Finishing
+119 silly diffTrees action count 2
+120 silly diffTrees add nan@2.6.2
+121 silly diffTrees add sleep@5.1.1
+122 silly decomposeActions action count 16
+123 silly decomposeActions fetch nan@2.6.2
+124 silly decomposeActions extract nan@2.6.2
+125 silly decomposeActions test nan@2.6.2
+126 silly decomposeActions preinstall nan@2.6.2
+127 silly decomposeActions build nan@2.6.2
+128 silly decomposeActions install nan@2.6.2
+129 silly decomposeActions postinstall nan@2.6.2
+130 silly decomposeActions finalize nan@2.6.2
+131 silly decomposeActions fetch sleep@5.1.1
+132 silly decomposeActions extract sleep@5.1.1
+133 silly decomposeActions test sleep@5.1.1
+134 silly decomposeActions preinstall sleep@5.1.1
+135 silly decomposeActions build sleep@5.1.1
+136 silly decomposeActions install sleep@5.1.1
+137 silly decomposeActions postinstall sleep@5.1.1
+138 silly decomposeActions finalize sleep@5.1.1
+139 silly runTopLevelLifecycles Starting
+140 silly executeActions Starting
+141 silly install executeActions
+142 silly doSerial global-install 0
+143 silly doParallel fetch 2
+144 verbose correctMkdir C:\Users\Hasitha\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+145 verbose lock using C:\Users\Hasitha\AppData\Roaming\npm-cache\_locks\staging-e3afd3fe1f0ffb3c.lock for C:\Users\Hasitha\Desktop\Youmuchanbot\node_modules\.staging
+146 silly doParallel extract 2
+147 silly extract nan@2.6.2
+148 silly extract sleep@5.1.1
+149 verbose unbuild node_modules\.staging\nan-925a6aca
+150 verbose unbuild node_modules\.staging\sleep-11317898
+151 silly gentlyRm C:\Users\Hasitha\Desktop\Youmuchanbot\node_modules\.staging\nan-925a6aca is being purged from base C:\Users\Hasitha\Desktop\Youmuchanbot
+152 verbose gentlyRm don't care about contents; nuking C:\Users\Hasitha\Desktop\Youmuchanbot\node_modules\.staging\nan-925a6aca
+153 verbose tar unpack C:\Users\Hasitha\AppData\Roaming\npm-cache\nan\2.6.2\package.tgz
+154 verbose tar unpacking to C:\Users\Hasitha\Desktop\Youmuchanbot\node_modules\.staging\nan-925a6aca
+155 silly gentlyRm C:\Users\Hasitha\Desktop\Youmuchanbot\node_modules\.staging\nan-925a6aca is being purged
+156 verbose gentlyRm don't care about contents; nuking C:\Users\Hasitha\Desktop\Youmuchanbot\node_modules\.staging\nan-925a6aca
+157 silly gentlyRm C:\Users\Hasitha\Desktop\Youmuchanbot\node_modules\.staging\sleep-11317898 is being purged from base C:\Users\Hasitha\Desktop\Youmuchanbot
+158 verbose gentlyRm don't care about contents; nuking C:\Users\Hasitha\Desktop\Youmuchanbot\node_modules\.staging\sleep-11317898
+159 silly gunzTarPerm modes [ '777', '666' ]
+160 verbose tar unpack C:\Users\Hasitha\AppData\Roaming\npm-cache\sleep\5.1.1\package.tgz
+161 verbose tar unpacking to C:\Users\Hasitha\Desktop\Youmuchanbot\node_modules\.staging\sleep-11317898
+162 silly gentlyRm C:\Users\Hasitha\Desktop\Youmuchanbot\node_modules\.staging\sleep-11317898 is being purged
+163 verbose gentlyRm don't care about contents; nuking C:\Users\Hasitha\Desktop\Youmuchanbot\node_modules\.staging\sleep-11317898
+164 silly gunzTarPerm modes [ '777', '666' ]
+165 silly gunzTarPerm extractEntry package.json
+166 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+167 silly gunzTarPerm extractEntry package.json
+168 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+169 silly gunzTarPerm extractEntry README.md
+170 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+171 silly gunzTarPerm extractEntry include_dirs.js
+172 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 438 ]
+173 silly gunzTarPerm extractEntry .npmignore
+174 silly gunzTarPerm modified mode [ '.npmignore', 436, 438 ]
+175 silly gunzTarPerm extractEntry README.md
+176 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+177 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+178 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 438 ]
+179 silly gunzTarPerm extractEntry LICENSE.md
+180 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 438 ]
+181 silly gunzTarPerm extractEntry doc/new.md
+182 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 438 ]
+183 silly gunzTarPerm extractEntry test.js
+184 silly gunzTarPerm modified mode [ 'test.js', 436, 438 ]
+185 silly gunzTarPerm extractEntry index.js
+186 silly gunzTarPerm modified mode [ 'index.js', 436, 438 ]
+187 silly gunzTarPerm extractEntry doc/asyncworker.md
+188 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 438 ]
+189 silly gunzTarPerm extractEntry LICENSE.txt
+190 silly gunzTarPerm modified mode [ 'LICENSE.txt', 436, 438 ]
+191 silly gunzTarPerm extractEntry sleep.cc
+192 silly gunzTarPerm modified mode [ 'sleep.cc', 436, 438 ]
+193 silly gunzTarPerm extractEntry doc/callback.md
+194 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 438 ]
+195 silly gunzTarPerm extractEntry doc/converters.md
+196 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 438 ]
+197 silly gunzTarPerm extractEntry binding.gyp
+198 silly gunzTarPerm modified mode [ 'binding.gyp', 436, 438 ]
+199 silly gunzTarPerm extractEntry doc/errors.md
+200 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 438 ]
+201 silly gunzTarPerm extractEntry doc/json.md
+202 silly gunzTarPerm modified mode [ 'doc/json.md', 436, 438 ]
+203 silly gunzTarPerm extractEntry doc/maybe_types.md
+204 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 438 ]
+205 silly gunzTarPerm extractEntry doc/methods.md
+206 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 438 ]
+207 silly gunzTarPerm extractEntry doc/buffers.md
+208 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 438 ]
+209 silly gunzTarPerm extractEntry doc/node_misc.md
+210 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 438 ]
+211 silly gunzTarPerm extractEntry doc/object_wrappers.md
+212 silly gunzTarPerm modified mode [ 'doc/object_wrappers.md', 436, 438 ]
+213 silly gunzTarPerm extractEntry doc/persistent.md
+214 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 438 ]
+215 silly gunzTarPerm extractEntry doc/scopes.md
+216 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 438 ]
+217 silly gunzTarPerm extractEntry doc/script.md
+218 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 438 ]
+219 silly gentlyRm C:\Users\Hasitha\Desktop\Youmuchanbot\node_modules\.staging\sleep-11317898\node_modules is being purged
+220 verbose gentlyRm don't care about contents; nuking C:\Users\Hasitha\Desktop\Youmuchanbot\node_modules\.staging\sleep-11317898\node_modules
+221 silly gunzTarPerm extractEntry doc/string_bytes.md
+222 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 438 ]
+223 silly gunzTarPerm extractEntry doc/v8_internals.md
+224 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 438 ]
+225 silly gunzTarPerm extractEntry doc/v8_misc.md
+226 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 438 ]
+227 silly gunzTarPerm extractEntry nan.h
+228 silly gunzTarPerm modified mode [ 'nan.h', 436, 438 ]
+229 silly gunzTarPerm extractEntry nan_callbacks.h
+230 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 438 ]
+231 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+232 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 438 ]
+233 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+234 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 438 ]
+235 silly gunzTarPerm extractEntry nan_converters.h
+236 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 438 ]
+237 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+238 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 438 ]
+239 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+240 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 438 ]
+241 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+242 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 438 ]
+243 silly gunzTarPerm extractEntry nan_json.h
+244 silly gunzTarPerm modified mode [ 'nan_json.h', 436, 438 ]
+245 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+246 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 438 ]
+247 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+248 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 438 ]
+249 silly gunzTarPerm extractEntry nan_new.h
+250 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 438 ]
+251 silly gunzTarPerm extractEntry nan_object_wrap.h
+252 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 438 ]
+253 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+254 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 438 ]
+255 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+256 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 438 ]
+257 silly gunzTarPerm extractEntry nan_private.h
+258 silly gunzTarPerm modified mode [ 'nan_private.h', 436, 438 ]
+259 silly gunzTarPerm extractEntry nan_string_bytes.h
+260 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 438 ]
+261 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+262 silly gunzTarPerm modified mode [ 'nan_typedarray_contents.h', 436, 438 ]
+263 silly gunzTarPerm extractEntry nan_weak.h
+264 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 438 ]
+265 silly gunzTarPerm extractEntry CHANGELOG.md
+266 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 438 ]
+267 silly gunzTarPerm extractEntry tools/package.json
+268 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 438 ]
+269 silly gunzTarPerm extractEntry tools/README.md
+270 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 438 ]
+271 silly gunzTarPerm extractEntry tools/1to2.js
+272 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 511 ]
+273 silly gentlyRm C:\Users\Hasitha\Desktop\Youmuchanbot\node_modules\.staging\nan-925a6aca\node_modules is being purged
+274 verbose gentlyRm don't care about contents; nuking C:\Users\Hasitha\Desktop\Youmuchanbot\node_modules\.staging\nan-925a6aca\node_modules
+275 silly doParallel preinstall 2
+276 silly preinstall nan@2.6.2 C:\Users\Hasitha\Desktop\Youmuchanbot\node_modules\.staging\nan-925a6aca
+277 info lifecycle nan@2.6.2~preinstall: nan@2.6.2
+278 silly preinstall sleep@5.1.1 C:\Users\Hasitha\Desktop\Youmuchanbot\node_modules\.staging\sleep-11317898
+279 info lifecycle sleep@5.1.1~preinstall: sleep@5.1.1
+280 silly lifecycle nan@2.6.2~preinstall: no script for preinstall, continuing
+281 silly lifecycle sleep@5.1.1~preinstall: no script for preinstall, continuing
+282 silly doReverseSerial remove 0
+283 silly doSerial move 0
+284 silly doSerial finalize 2
+285 silly finalize C:\Users\Hasitha\Desktop\Youmuchanbot\node_modules\nan
+286 silly finalize C:\Users\Hasitha\Desktop\Youmuchanbot\node_modules\sleep
+287 silly doSerial build 2
+288 silly build nan@2.6.2
+289 info linkStuff nan@2.6.2
+290 silly linkStuff nan@2.6.2 has C:\Users\Hasitha\Desktop\Youmuchanbot\node_modules as its parent node_modules
+291 verbose linkBins nan@2.6.2
+292 verbose linkMans nan@2.6.2
+293 silly build sleep@5.1.1
+294 info linkStuff sleep@5.1.1
+295 silly linkStuff sleep@5.1.1 has C:\Users\Hasitha\Desktop\Youmuchanbot\node_modules as its parent node_modules
+296 verbose linkBins sleep@5.1.1
+297 verbose linkMans sleep@5.1.1
+298 silly doSerial global-link 0
+299 silly doParallel update-linked 0
+300 silly doSerial install 2
+301 silly install nan@2.6.2 C:\Users\Hasitha\Desktop\Youmuchanbot\node_modules\.staging\nan-925a6aca
+302 info lifecycle nan@2.6.2~install: nan@2.6.2
+303 silly lifecycle nan@2.6.2~install: no script for install, continuing
+304 silly install sleep@5.1.1 C:\Users\Hasitha\Desktop\Youmuchanbot\node_modules\.staging\sleep-11317898
+305 info lifecycle sleep@5.1.1~install: sleep@5.1.1
+306 verbose lifecycle sleep@5.1.1~install: unsafe-perm in lifecycle true
+307 verbose lifecycle sleep@5.1.1~install: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\Hasitha\Desktop\Youmuchanbot\node_modules\sleep\node_modules\.bin;C:\Users\Hasitha\Desktop\Youmuchanbot\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Users\Hasitha\AppData\Local\Microsoft\WindowsApps;C:\Users\Hasitha\AppData\Roaming\npm;C:\Users\Hasitha\AppData\Local\atom\bin
+308 verbose lifecycle sleep@5.1.1~install: CWD: C:\Users\Hasitha\Desktop\Youmuchanbot\node_modules\sleep
+309 silly lifecycle sleep@5.1.1~install: Args: [ '/d /s /c', 'node-gyp rebuild' ]
+310 silly lifecycle sleep@5.1.1~install: Returned: code: 1  signal: null
+311 info lifecycle sleep@5.1.1~install: Failed to exec install script
+312 verbose unlock done using C:\Users\Hasitha\AppData\Roaming\npm-cache\_locks\staging-e3afd3fe1f0ffb3c.lock for C:\Users\Hasitha\Desktop\Youmuchanbot\node_modules\.staging
+313 silly rollbackFailedOptional Starting
+314 silly rollbackFailedOptional Finishing
+315 silly runTopLevelLifecycles Finishing
+316 silly install printInstalled
+317 warn discord.js@11.0.0 requires a peer of erlpack@hammerandchisel/erlpack#master but none was installed.
+318 verbose If you need help, you may report this error at:
+318 verbose     <https://github.com/npm/npm/issues>
+319 warn discord.js@11.0.0 requires a peer of node-opus@^0.2.0 but none was installed.
+320 verbose If you need help, you may report this error at:
+320 verbose     <https://github.com/npm/npm/issues>
+321 warn discord.js@11.0.0 requires a peer of opusscript@^0.0.1 but none was installed.
+322 verbose If you need help, you may report this error at:
+322 verbose     <https://github.com/npm/npm/issues>
+323 warn discord.js@11.0.0 requires a peer of uws@^0.12.0 but none was installed.
+324 verbose If you need help, you may report this error at:
+324 verbose     <https://github.com/npm/npm/issues>
+325 warn mybot@0.0.1 No repository field.
+326 verbose If you need help, you may report this error at:
+326 verbose     <https://github.com/npm/npm/issues>
+327 verbose stack Error: sleep@5.1.1 install: `node-gyp rebuild`
+327 verbose stack Exit status 1
+327 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:255:16)
+327 verbose stack     at emitTwo (events.js:106:13)
+327 verbose stack     at EventEmitter.emit (events.js:191:7)
+327 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+327 verbose stack     at emitTwo (events.js:106:13)
+327 verbose stack     at ChildProcess.emit (events.js:191:7)
+327 verbose stack     at maybeClose (internal/child_process.js:877:16)
+327 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+328 verbose pkgid sleep@5.1.1
+329 verbose cwd C:\Users\Hasitha\Desktop\Youmuchanbot
+330 error Windows_NT 10.0.14393
+331 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "sleep"
+332 error node v6.10.0
+333 error npm  v3.10.10
+334 error code ELIFECYCLE
+335 error sleep@5.1.1 install: `node-gyp rebuild`
+335 error Exit status 1
+336 error Failed at the sleep@5.1.1 install script 'node-gyp rebuild'.
+336 error Make sure you have the latest version of node.js and npm installed.
+336 error If you do, this is most likely a problem with the sleep package,
+336 error not with npm itself.
+336 error Tell the author that this fails on your system:
+336 error     node-gyp rebuild
+336 error You can get information on how to open an issue for this project with:
+336 error     npm bugs sleep
+336 error Or if that isn't available, you can get their info via:
+336 error     npm owner ls sleep
+336 error There is likely additional logging output above.
+337 verbose exit [ 1, true ]

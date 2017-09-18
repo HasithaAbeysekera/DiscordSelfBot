@@ -1,0 +1,5 @@
+{
+  "token": "Insert bot token here",
+  "prefix": "-",
+  "ownerid": "Guild owner's user id here"
+}

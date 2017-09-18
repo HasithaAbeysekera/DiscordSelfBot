@@ -1,0 +1,23 @@
+{
+  "name": "mybot",
+  "version": "0.0.1",
+  "description": "First bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HoloTheWise",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.2.1",
+    "ffmpeg-binaries": "^3.2.2-3",
+    "moment": "^2.18.1",
+    "ms": "^1.0.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-plugin-react": "^6.10.3"
+  }
+}
