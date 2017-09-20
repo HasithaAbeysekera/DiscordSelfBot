@@ -12,8 +12,13 @@ module.exports = message => {
   if (client.commands.has(command)) {
     cmd = client.commands.get(command);
     console.log(`Command ${command} activated`);
+  } else {
+    return;
   }
   if (cmd) {
+    message.delete();
     cmd.run(client, message, args);
+  } else {
+    return;
   }
 };

@@ -6,14 +6,7 @@ exports.run = (client, message) => {
         });
 };
 
-exports.conf = {
-  enabled: true,
-  guildOnly: false,
-  permLevel: 0
-};
-
 exports.help = {
   name: 'ping',
-  description: 'Displays bot\'s current ping',
-  usage: 'ping'
+  description: 'Displays bot\'s current ping'
 };

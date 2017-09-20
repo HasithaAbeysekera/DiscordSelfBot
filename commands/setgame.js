@@ -7,14 +7,7 @@ exports.run = function(client, message, args) {
     }
 };
 
-exports.conf = {
-  enabled: true,
-  guildOnly: false,
-  permLevel: 3
-};
-
 exports.help = {
   name: 'setgame',
-  description: 'Set status. eg: setgame [CSGO] will display "Playing CSGO"',
-  usage: 'setgame [game]'
+  description: 'Set status. eg: setgame [CSGO] will display "Playing CSGO"'
 };
