@@ -16,11 +16,11 @@ exports.run = function(client, message, args) {
   }
 
   if (recipient) {
-    return message.channel.send(`*Pats* ${recipient}`);
+    return message.channel.send(`*Hugs* ${recipient}`);
   }
   return;
 }
 exports.help = {
-  name: 'pat',
-  description: 'Pats a user'
+  name: 'Hug',
+  description: 'Hugs a user'
 };
