@@ -2,24 +2,21 @@ const Discord = require("discord.js");
 var getUser = require('../util/getUser.js');
 
 exports.run = function(client, message, args) {
-  var recipient;
-  if (!args[0]) {
-    if (message.channel.type == "dm") {
-      recipient = message.channel.recipient;
-    }
-  } else {
-    if (message.mentions.users.first()) {
-      recipient = message.mentions.users.first();
-    } else {
-      recipient = getUser(message, args[0]);
-    }
-  }
 
-  if (recipient) {
-    return message.channel.send(`*Pats* ${recipient}`);
+  if (message.mentions.users.first()) {
+    recipient = message.mentions.users.first();
+    message.channel.send(`*Pats* ${recipient}`);
+    size = assets["pat"].length;
+    randNumber = Math.floor((Math.random() * size));
+
+    const embed = new Discord.RichEmbed()
+      .setImage(assets["pat"][randNumber])
+      .setColor(0xFFFFFF)
+    message.channel.send(embed);
   }
   return;
-}
+};
+
 exports.help = {
   name: 'pat',
   description: 'Pats a user'
