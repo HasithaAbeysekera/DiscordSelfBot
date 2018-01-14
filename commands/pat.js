@@ -1,4 +1,5 @@
 const Discord = require("discord.js");
+var assets = require('../assets/assets.json');
 
 exports.run = function(client, message, args) {
 
