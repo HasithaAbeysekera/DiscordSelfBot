@@ -1,5 +1,4 @@
 const prefix = require('../config.json').prefix;
-var checkLoli = require('../util/checkLoli.js');
 
 module.exports = message => {
   let client = message.client;

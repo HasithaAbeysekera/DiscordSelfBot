@@ -1,5 +1,4 @@
 const Discord = require("discord.js");
-var getUser = require('../util/getUser.js');
 
 exports.run = function(client, message, args) {
 
