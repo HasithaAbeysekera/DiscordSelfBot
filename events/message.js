@@ -2,7 +2,7 @@ const prefix = require('../config.json').prefix;
 
 module.exports = message => {
   let client = message.client;
-  if (!message.author.bot) return;
+  if(message.author !== client.user) return;
 
   let command = message.content.split(' ')[0].slice(prefix.length);
   let args = message.content.split(' ').slice(1);
