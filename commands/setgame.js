@@ -1,5 +1,4 @@
 exports.run = function(client, message, args) {
-  message.delete();
     if (args == "") {
         client.user.setGame(null);
     } else {

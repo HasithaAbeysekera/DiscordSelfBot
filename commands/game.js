@@ -1,5 +1,5 @@
 exports.run = function(client, message, args) {
-  message.delete();
+  
   if (client.user.presence.game) {
     message.channel.send(`Current game: ${client.user.presence.game.name}`);
   } else {

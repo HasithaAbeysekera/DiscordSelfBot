@@ -1,5 +1,5 @@
 exports.run = (client, message) => {
-  message.delete();
+
   message.channel.send("( ͡° ͜ʖ ͡°)");
 };
 
