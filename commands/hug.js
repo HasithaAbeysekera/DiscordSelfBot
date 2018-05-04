@@ -27,16 +27,16 @@ exports.run = function(client, message, args) {
         time: 120000
       });
 
-      const filter2 = (reaction, user) => reaction.emoji.name == `❌` && user.id == recipient.id;
+      const filter2 = (reaction2, user2) => reaction2.emoji.name == `❌` && user2.id == recipient.id;
       const collector2 = newMsg.createReactionCollector(filter2, {
         time: 120000
       });
 
-      return collector.on('collect', r => newMsg.delete().then(message.channel.send(embedhugy)));
-      return collector.on('end', message => console.log(`Collection timed out`));
+      collector.on('collect', r => newMsg.delete().then(message.channel.send(embedhugy)));
+      collector.on('end', message => console.log(`Collection timed out`));
 
-      return collector2.on('collect', r => newMsg.delete().then(message.channel.send(embedhugn)));
-      return collector2.on('end', message => console.log(`Collection timed out`));
+      collector2.on('collect', r2 => newMsg.delete().then(message.channel.send(embedhugn)));
+      collector2.on('end', message2 => console.log(`Collection timed out`));
     }).catch(console.error);
   } else {
     return;
