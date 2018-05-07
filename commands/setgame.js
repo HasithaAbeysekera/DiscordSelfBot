@@ -7,15 +7,7 @@ exports.run = function(client, message, args) {
     .then().catch(console.error);
 };
 
-exports.conf = {
-  enabled: true,
-  guildOnly: false,
-  aliases: ['setstatus'],
-  permLevel: 4
-};
-
 exports.help = {
   name: 'setgame',
-  description: 'Set Haruna\'s status.',
-  usage: 'setgame [game]'
+  description: 'Set Haruna\'s status.'
 };
