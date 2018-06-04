@@ -1,7 +1,7 @@
 var zalgo = require('zalgotxt');
 
-exports.run = (client, message) => {
-  let msg = message.content;
+exports.run = (client, message, args) => {
+  let msg = args.join(" ");
   message.channel.send(zalgo(`${msg}`));
 };
 
